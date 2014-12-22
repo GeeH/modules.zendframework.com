@@ -11,6 +11,14 @@ class Module extends AbstractDbMapper implements ModuleInterface
 {
     protected $tableName  = 'module';
 
+    /**
+     * @param $page
+     * @param $limit
+     * @param null $query
+     * @param null $orderBy
+     * @param string $sort
+     * @return \Zend\Paginator\Paginator
+     */
     public function pagination($page, $limit, $query = null, $orderBy = null, $sort = 'ASC')
     {
         $select = $this->getSelect();

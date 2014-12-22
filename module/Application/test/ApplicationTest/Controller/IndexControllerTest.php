@@ -1,52 +1,36 @@
 <?php
-
 namespace ApplicationTest\Controller;
 
-use ApplicationTest\Bootstrap;
-use Application\Controller\IndexController;
-use Zend\Http\Request;
-use Zend\Http\Response;
-use Zend\Mvc\Controller\ControllerManager;
-use Zend\Mvc\MvcEvent;
-use Zend\Mvc\Router\RouteMatch;
-use Zend\Mvc\Router\Http\TreeRouteStack as HttpRouter;
-use PHPUnit_Framework_TestCase;
+use Application\Module;
+use UglyTesting\AbstractControllerTestCase;
+use Zend\Db\Adapter\Adapter;
+use Zend\Paginator\Paginator;
+use Zend\View\Model\ViewModel;
 
-class IndexControllerTest extends PHPUnit_Framework_TestCase
+
+class IndexControllerTest extends AbstractControllerTestCase
 {
-    protected $controller;
-    protected $request;
-    protected $response;
-    protected $routeMatch;
-    protected $event;
-
-    protected function setUp()
+    public function setUp()
     {
-        $serviceManager = Bootstrap::getServiceManager();
-
-        /* @var ControllerManager $controllerManager */
-        $controllerManager = $serviceManager->get('ControllerManager');
-        $this->controller = $controllerManager->get('Application\Controller\Index');
-
-        $this->request = new Request();
-        $this->routeMatch = new RouteMatch(array('controller' => 'index'));
-        $this->event = new MvcEvent();
-        $config = $serviceManager->get('Config');
-        $routerConfig = isset($config['router']) ? $config['router'] : array();
-        $router = HttpRouter::factory($routerConfig);
-        $this->event->setRouter($router);
-        $this->event->setRouteMatch($this->routeMatch);
-        $this->controller->setEvent($this->event);
-        $this->controller->setServiceLocator($serviceManager);
+        $this->givenTestsController('Application/Controller/Index');
     }
 
-    public function testIndexActionCanBeAccessed()
+    public function testIndexAction()
     {
-        $this->routeMatch->setParam('action', 'index');
 
-        //$result = $this->controller->dispatch($this->request);
-        //$response = $this->controller->getResponse();
+        $mockPaginator = $this->getMockBuilder(Paginator::class)
+            ->disableOriginalConstructor();
 
-        //$this->assertEquals(200, $response->getStatusCode());
+        $mock = $this->getMock(Module::class, ['pagination']);
+        $mock->expects($this->once())
+            ->method('pagination')
+            ->willReturn($mockPaginator);
+
+
+        $this->givenMockedClass('moduleMapper', $mock)
+            ->givenUrl('/')
+            ->shouldRouteTo('home')
+            ->shouldRunAction('index')
+            ->shouldReturnA(ViewModel::class);
     }
 }

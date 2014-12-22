@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a424182c4e36e255265d4e1faaf888b1",
+    "hash": "34afece4597be5fa4315a32af02e46ee",
     "packages": [
         {
             "name": "bshaffer/oauth2-server-php",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bshaffer/oauth2-server-php.git",
-                "reference": "e30f26d780030fd818ec8da9776e0e10f13cc9f8"
+                "reference": "096d1312428f857b413d2989d781abb93e2bc180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bshaffer/oauth2-server-php/zipball/e30f26d780030fd818ec8da9776e0e10f13cc9f8",
-                "reference": "e30f26d780030fd818ec8da9776e0e10f13cc9f8",
+                "url": "https://api.github.com/repos/bshaffer/oauth2-server-php/zipball/096d1312428f857b413d2989d781abb93e2bc180",
+                "reference": "096d1312428f857b413d2989d781abb93e2bc180",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2014-11-04 18:58:21"
+            "time": "2014-12-09 23:24:37"
         },
         {
             "name": "evandotpro/edp-github",
@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "ddaccff1bd80bd8721a56e0d36bb141363bf3605"
+                "reference": "02105abcd35fb32933bc566e4c3bec84c612e9c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/ddaccff1bd80bd8721a56e0d36bb141363bf3605",
-                "reference": "ddaccff1bd80bd8721a56e0d36bb141363bf3605",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/02105abcd35fb32933bc566e4c3bec84c612e9c1",
+                "reference": "02105abcd35fb32933bc566e4c3bec84c612e9c1",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-04-26 15:49:46"
+            "time": "2014-12-12 05:37:00"
         },
         {
             "name": "lorenzoferrarajr/lfj-error-layout",
@@ -360,12 +360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694"
+                "reference": "1b5a30e13974b490964a1610bab5958e83cd4b69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694",
-                "reference": "a8c56ecd5e9e7c7d37d00c814c864c3bc8b32694",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/1b5a30e13974b490964a1610bab5958e83cd4b69",
+                "reference": "1b5a30e13974b490964a1610bab5958e83cd4b69",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +403,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-08-10 19:25:52"
+            "time": "2014-12-08 02:09:55"
         },
         {
             "name": "rwoverdijk/assetmanager",
@@ -527,12 +527,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "2ec66cdae9ac7fd8da352fa86358639cb6f76ad2"
+                "reference": "8e48bf549751897a3316faaaa8c50afe3cb11d6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/2ec66cdae9ac7fd8da352fa86358639cb6f76ad2",
-                "reference": "2ec66cdae9ac7fd8da352fa86358639cb6f76ad2",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/8e48bf549751897a3316faaaa8c50afe3cb11d6b",
+                "reference": "8e48bf549751897a3316faaaa8c50afe3cb11d6b",
                 "shasum": ""
             },
             "require": {
@@ -565,7 +565,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:50"
+            "time": "2014-12-20 16:07:09"
         },
         {
             "name": "zendframework/zendframework",
@@ -573,12 +573,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "edbc12b85d820113452b651991bc1038d5b83d0e"
+                "reference": "27bb93c39607b0cede1b4955747d01dc81a6091c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/edbc12b85d820113452b651991bc1038d5b83d0e",
-                "reference": "edbc12b85d820113452b651991bc1038d5b83d0e",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/27bb93c39607b0cede1b4955747d01dc81a6091c",
+                "reference": "27bb93c39607b0cede1b4955747d01dc81a6091c",
                 "shasum": ""
             },
             "require": {
@@ -683,7 +683,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2014-12-02 23:49:52"
+            "time": "2014-12-16 20:57:27"
         },
         {
             "name": "zendframework/zendxml",
@@ -1719,6 +1719,45 @@
     ],
     "packages-dev": [
         {
+            "name": "geeh/ugly-testing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeeH/UglyTesting.git",
+                "reference": "9b077b71e555225ce959ee0b5991a23b1a3f463c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeeH/UglyTesting/zipball/9b077b71e555225ce959ee0b5991a23b1a3f463c",
+                "reference": "9b077b71e555225ce959ee0b5991a23b1a3f463c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2.4",
+                "squizlabs/php_codesniffer": "~1.5.5",
+                "zendframework/zendframework": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UglyTesting\\": "src",
+                    "UglyTestingTest\\": "test"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "New BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Hockin",
+                    "email": "gary@hock.in"
+                }
+            ],
+            "description": "Ugly Controller Testing Framework for ZF2",
+            "time": "2014-12-22 08:52:58"
+        },
+        {
             "name": "phpunit/php-code-coverage",
             "version": "2.0.x-dev",
             "source": {
@@ -2153,12 +2192,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7"
+                "reference": "a4420fdad8ef5e525cdeb66adbb5ed9e873e6128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6e6c71d918088c251b181ba8b3088af4ac336dd7",
-                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/a4420fdad8ef5e525cdeb66adbb5ed9e873e6128",
+                "reference": "a4420fdad8ef5e525cdeb66adbb5ed9e873e6128",
                 "shasum": ""
             },
             "require": {
@@ -2195,7 +2234,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2014-10-25 08:00:45"
+            "time": "2014-12-15 10:20:32"
         },
         {
             "name": "sebastian/exporter",
@@ -2377,12 +2416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "610f01968f2cd731fdf59dfeae904ed930afc35f"
+                "reference": "b9c19ce1bd9a51d3f42665973088f2e2b82db240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/610f01968f2cd731fdf59dfeae904ed930afc35f",
-                "reference": "610f01968f2cd731fdf59dfeae904ed930afc35f",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/b9c19ce1bd9a51d3f42665973088f2e2b82db240",
+                "reference": "b9c19ce1bd9a51d3f42665973088f2e2b82db240",
                 "shasum": ""
             },
             "require": {
@@ -2415,7 +2454,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-02 20:19:50"
+            "time": "2014-12-09 17:32:32"
         },
         {
             "name": "zendframework/zend-developer-tools",
@@ -2423,12 +2462,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendDeveloperTools.git",
-                "reference": "5e38d0889a34bfbfccef2acb93ca9f4df40dfe31"
+                "reference": "23fbb79b72e9d6a7090158f47f462faeb512733d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/5e38d0889a34bfbfccef2acb93ca9f4df40dfe31",
-                "reference": "5e38d0889a34bfbfccef2acb93ca9f4df40dfe31",
+                "url": "https://api.github.com/repos/zendframework/ZendDeveloperTools/zipball/23fbb79b72e9d6a7090158f47f462faeb512733d",
+                "reference": "23fbb79b72e9d6a7090158f47f462faeb512733d",
                 "shasum": ""
             },
             "require": {
@@ -2476,7 +2515,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2014-10-23 18:27:03"
+            "time": "2014-12-21 18:23:56"
         },
         {
             "name": "zendframework/zenddiagnostics",
@@ -2484,12 +2523,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendDiagnostics.git",
-                "reference": "a2cb46431165b52a2dc91730c372586108b5d622"
+                "reference": "b855b48f6539038270a3c0935b6bd2c51fa43f7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendDiagnostics/zipball/a2cb46431165b52a2dc91730c372586108b5d622",
-                "reference": "a2cb46431165b52a2dc91730c372586108b5d622",
+                "url": "https://api.github.com/repos/zendframework/ZendDiagnostics/zipball/b855b48f6539038270a3c0935b6bd2c51fa43f7c",
+                "reference": "b855b48f6539038270a3c0935b6bd2c51fa43f7c",
                 "shasum": ""
             },
             "require": {
@@ -2535,7 +2574,7 @@
                 "php",
                 "test"
             ],
-            "time": "2014-08-29 13:11:32"
+            "time": "2014-12-07 18:10:07"
         },
         {
             "name": "zendframework/zftool",
@@ -2782,7 +2821,8 @@
         "zendframework/zend-developer-tools": 20,
         "zfcampus/zf-apigility-admin": 20,
         "zfcampus/zf-configuration": 20,
-        "zfcampus/zf-apigility-welcome": 20
+        "zfcampus/zf-apigility-welcome": 20,
+        "geeh/ugly-testing": 20
     },
     "prefer-stable": false,
     "platform": {
