@@ -16,7 +16,7 @@ before_script:
   - mysql -uroot modules_test < data/sql/0.sql
 
 script:
-  - vendor/bin/phpcs --standard=phpcs.xml -np --report=summary .
+  - vendor/bin/phpcs --standard=phpcs.xml -np --report=summary --exclude=tests .
 #  - vendor/bin/phpmd . text codesize,unusedcode --exclude data,puphpet,vendor
   - vendor/bin/phpunit --configuration phpunit.xml
 
