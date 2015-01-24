@@ -22,7 +22,8 @@
         "bjyoungblood/BjyProfiler": "1.1.0",
         "squizlabs/php_codesniffer": "~2.0.0@RC",
         "zendframework/zftool": "dev-master",
-        "zendframework/zend-developer-tools": "dev-master"
+        "zendframework/zend-developer-tools": "dev-master",
+        "codeception/codeception": "*"
     },
     "autoload": {
         "psr-0": {
