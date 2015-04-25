@@ -1,1 +1,1 @@
-ALTER TABLE `module` ADD `score` int(11) NOT NULL DEFAULT 0;
+ALTER TABLE `module` ADD `score` int(11) NULL DEFAULT 0;

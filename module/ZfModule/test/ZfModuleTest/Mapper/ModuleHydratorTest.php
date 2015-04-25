@@ -20,12 +20,14 @@ class ModuleHydratorTest extends PHPUnit_Framework_TestCase
         $module->setOwner('fooOwner');
         $module->setPhotoUrl('fooPhotoUrl');
         $module->setUrl('fooUrl');
+        $module->setScore(42);
 
         $data = [
             'name' => 'fooName',
             'description' => 'fooDescription',
             'url' => 'fooUrl',
             'owner' => 'fooOwner',
+            'score' => 42,
             'module_id' => 999,
             'created_at' => '2013-02-28 13:05:00',
             'updated_at' => '2014-05-10 06:48:15',
