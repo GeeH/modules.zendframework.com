@@ -2,6 +2,9 @@
 
 If you want to contribute, please be sure to read this file.
 
+## GitFlow
+
+Please note, this project is now using GitFlow and all pull requests should be done in your own fork in a feature branch, and submitted against origin develop.
 
 ## Travis
 
