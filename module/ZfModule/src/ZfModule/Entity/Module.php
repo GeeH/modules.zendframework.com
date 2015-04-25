@@ -47,6 +47,11 @@ class Module implements ModuleInterface
     private $photoUrl;
 
     /**
+     * @var int
+     */
+    private $score;
+
+    /**
      * @return string
      */
     public function getPhotoUrl()
@@ -188,12 +193,28 @@ class Module implements ModuleInterface
     public function getIdentifier()
     {
         $owner = $this->getOwner();
-        $name = $this->getName();
+        $name  = $this->getName();
 
         if (empty($owner) || empty($name)) {
             return;
         }
 
         return sprintf('%s/%s', $owner, $name);
+    }
+
+    /**
+     * @return int
+     */
+    public function getScore()
+    {
+        return $this->score;
+    }
+
+    /**
+     * @param int $score
+     */
+    public function setScore($score)
+    {
+        $this->score = $score;
     }
 }

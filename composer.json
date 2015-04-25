@@ -13,7 +13,9 @@
         "socalnick/scn-social-auth": "1.14.1",
         "zendframework/zendframework": "~2.3.0",
         "zf-commons/zfc-user": "1.0.*",
-        "zfcampus/zf-development-mode": "~2.0"
+        "zfcampus/zf-development-mode": "~2.0",
+        "zfcampus/zf-console": "~1.0",
+        "knplabs/github-api": "~1.2"
     },
     "require-dev": {
         "bjyoungblood/BjyProfiler": "1.1.0",

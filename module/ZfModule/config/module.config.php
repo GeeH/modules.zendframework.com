@@ -108,6 +108,7 @@ return [
         'factories' => [
             Mapper\Module::class => Mapper\ModuleFactory::class,
             Service\Module::class => Service\ModuleFactory::class,
+            Service\Update::class => Service\UpdateFactory::class,
         ],
         'delegators' => [
             Client::class => [
