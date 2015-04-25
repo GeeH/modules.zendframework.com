@@ -4,9 +4,7 @@
  * Date: 25/04/15
  * @GeeH
  */
-
 namespace ZfModule\Service;
-
 
 use Github\Client;
 use Zend\Console\Adapter\AdapterInterface;
@@ -34,13 +32,12 @@ class Update
      */
     private $console;
 
-
     /**
      * @param Module $moduleMapper
      * @param Client $client
      * @param array $config
      */
-    function __construct(Module $moduleMapper, Client $client, array $config)
+    public function __construct(Module $moduleMapper, Client $client, array $config)
     {
         $this->moduleMapper = $moduleMapper;
         $this->client       = $client;
@@ -52,12 +49,11 @@ class Update
      * @param AdapterInterface $console
      * @return int
      */
-    function __invoke(Route $route, AdapterInterface $console)
+    public function __invoke(Route $route, AdapterInterface $console)
     {
         $this->console = $console;
 
         $this->setupClient();
-
 
         $modules = $this->moduleMapper->findAll();
 
@@ -78,6 +74,7 @@ class Update
 
         if (!$repo) {
             $this->console->writeLine('E');
+
             return $score;
         }
 
@@ -123,7 +120,6 @@ class Update
         return $data;
     }
 
-
     private function setupClient()
     {
         $this->client->authenticate(
@@ -132,5 +128,4 @@ class Update
             Client::AUTH_URL_CLIENT_ID
         );
     }
-
 }
